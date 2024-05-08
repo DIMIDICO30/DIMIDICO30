@@ -1,16 +1,18 @@
-### Hi there 👋
+![Banner]([https://example.com/your-banner-image.png](https://www.esic.edu/sites/default/files/2022-05/analisis-de-datos.jpg))
 
-<!--
-**DIMIDICO30/DIMIDICO30** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Acerca de Mí
+🔍 **Analista de Datos** con experiencia en **automatización de procesos** y **gestión de información**.
+🛠️ Habilidades en **SISE**, **Microsoft Excel**, **VBA**.
+📍 **Bogotá, Distrito Capital, Colombia**
 
-Here are some ideas to get you started:
+### Experiencia
+- **Analista II Servicio a la Póliza, AXA COLPATRIA**  
+  Dic. 2023 - Presente | Bogotá  
+  Responsable de la generación de pólizas, especialización en SISE, y procesos de limpieza y cargue de información masiva.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Habilidades Clave
+- **SISE**
+- **Microsoft Excel**
+- **Visual Basic for Applications (VBA)**
+- **Automatización de Procesos**
+- **Análisis de Datos**
