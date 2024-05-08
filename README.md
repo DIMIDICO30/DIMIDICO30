@@ -2,14 +2,16 @@
 
 
 ### Acerca de Mí
-🔍 **Analista de Datos** con experiencia en **automatización de procesos** y **gestión de información**.
+🔍 **Analista de Datos para la industria de seguros** con experiencia en **automatización de procesos** y **gestión de información**.
 🛠️ Habilidades en **SISE**, **Microsoft Excel**, **VBA**.
 📍 **Bogotá, Distrito Capital, Colombia**
 
 ### Experiencia
 - **Analista II Servicio a la Póliza, AXA COLPATRIA**  
-  Dic. 2023 - Presente | Bogotá  
+  Febrero. 2022 - Presente | Bogotá  
   Responsable de la generación de pólizas, especialización en SISE, y procesos de limpieza y cargue de información masiva.
+  Automatización de procesos mediante herramientas ofimáticas y Visual Basic.
+  Desarrollo de informes de procesos para identificar áreas de mejora.
 
 ### Habilidades Clave
 - **SISE**
