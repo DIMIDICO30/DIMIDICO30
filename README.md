@@ -1,4 +1,4 @@
-![Banner]([https://www.esic.edu/sites/default/files/2022-05/analisis-de-datos.jpg](https://soypyme.org/wp-content/uploads/2020/12/curso-analisis-de-datos.jpg))
+![Banner](https://soypyme.org/wp-content/uploads/2020/12/curso-analisis-de-datos.jpg)
 
 
 ### Acerca de Mí
