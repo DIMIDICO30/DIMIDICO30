@@ -1,4 +1,4 @@
-![Banner](https://soypyme.org/wp-content/uploads/2020/12/curso-analisis-de-datos.jpg)
+![Banner](https://www.codigofuente.org/wp-content/uploads/2018/10/anLISIS.jpg)
 
 
 ### Acerca de Mí
