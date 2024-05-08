@@ -1,4 +1,5 @@
-![Banner]([https://example.com/your-banner-image.png](https://www.esic.edu/sites/default/files/2022-05/analisis-de-datos.jpg))
+![Banner](https://www.esic.edu/sites/default/files/2022-05/analisis-de-datos.jpg)
+
 
 ### Acerca de Mí
 🔍 **Analista de Datos** con experiencia en **automatización de procesos** y **gestión de información**.
