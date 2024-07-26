@@ -7,7 +7,7 @@
 📍 **Bogotá, Distrito Capital, Colombia**
 
 ### Experiencia
-- **Analista II Servicio a la Póliza, AXA COLPATRIA**  
+- **Analista de Datos/Operaciones, AXA COLPATRIA**  
   Febrero 2022 - Presente | Bogotá  
   Responsable de la generación de pólizas y especialización en SISE. Encargado de la limpieza de datos y cargue de información masiva.
   Automatización de procesos utilizando herramientas ofimáticas y Visual Basic para Aplicaciones (VBA), mejorando significativamente la eficiencia operativa.
