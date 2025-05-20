@@ -1,110 +1,115 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Para Ti, Mi Amor</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Mi Amor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(to bottom, #ffe6f0, #fff);
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to right, #fdeff9, #ec38bc);
       color: #333;
+      overflow-x: hidden;
     }
     header {
       text-align: center;
-      padding: 2rem;
-      background-color: #ffb6c1;
-      color: white;
+      padding: 3rem 1rem 1rem;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      color: #fff;
+      text-shadow: 2px 2px #ec38bc;
+      animation: fadeInDown 2s ease;
     }
-    header h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 3em;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-      animation: fadeIn 2s ease-in;
-    }
-    .image-grid {
+    .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
     }
-    .image-grid img {
+    .gallery img {
       width: 100%;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-    blockquote {
-      font-style: italic;
-      color: #555;
-      text-align: center;
-      font-size: 1.5em;
-      margin: 2rem 0;
-    }
-    .video {
-      text-align: center;
-      margin: 2rem 0;
-    }
-    .video iframe {
-      width: 100%;
-      max-width: 560px;
-      height: 315px;
       border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.5s;
     }
-    audio {
-      display: none;
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .section {
+      padding: 2rem 1rem;
+      text-align: center;
+      color: #fff;
+    }
+    .section p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.2rem;
+    }
+    .verses {
+      font-style: italic;
+      font-size: 1.4rem;
+      animation: fadeIn 3s ease-in-out;
+    }
+    footer {
+      background: #ec38bc;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1rem;
+    }
+    @keyframes fadeInDown {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
     @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(20px);}
-      to {opacity: 1; transform: translateY(0);}
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
   </style>
 </head>
 <body>
-  <!-- Música de fondo -->
   <audio autoplay loop>
     <source src="musica_para_ti.mp3" type="audio/mpeg">
     Tu navegador no soporta el elemento de audio.
   </audio>
 
   <header>
-    <h1>Para Ti, Mi Amor 💖</h1>
-    <p>Un rincón de recuerdos hechos con amor</p>
+    Para la niña más hermosa 💖
   </header>
 
-  <section>
-    <blockquote>
-      "Eres mi lugar favorito donde quiero volver una y otra vez."
-    </blockquote>
-    <div class="image-grid">
-      <img src="https://i.ibb.co/cwXwWNs/ds.png" alt="En la pista de cars" />
-      <img src="https://i.ibb.co/3Y4WTFVD/8c89fbc12bec35011a97dd13294eefac.jpg" alt="En el carro juntos" />
-      <img src="https://i.ibb.co/cKbY0W3F/20250503-133039.jpg" alt="Haciendo caras en la playa" />
-      <img src="https://i.ibb.co/zhnysL7k/20250503-150911.jpg" alt="Frente al mar abrazados" />
-      <img src="https://i.ibb.co/ZzgK0Wxn/20250504-091809.jpg" alt="En el Tayrona sobre la piedra" />
-      <img src="https://i.ibb.co/DPHwrwxD/20250505-104943-0.jpg" alt="En el río de Minca" />
-      <img src="https://i.ibb.co/LDyXrxJn/IMG-20250518-WA0030.jpg" alt="IA de nuestro hijo Juan José" />
-    </div>
+  <section class="section">
+    <p class="verses">"Desde que llegaste a mi vida, cada momento contigo se ha convertido en un recuerdo eterno."
+    <br>Te amo más de lo que las palabras pueden decir.</p>
   </section>
 
-  <section>
-    <blockquote>
-      "Cada instante contigo es un poema, cada abrazo es un hogar."
-    </blockquote>
-    <div class="video">
-      <p><strong>Mi primer video para ti: "Mi muñeca hermosa"</strong></p>
-      <a href="https://youtu.be/mbH35C-7Ifc" target="_blank">Haz clic aquí para verlo 💕</a>
-    </div>
+  <div class="gallery">
+    <img src="https://i.ibb.co/cwXwWNs/ds.png" alt="Cars">
+    <img src="https://i.ibb.co/3Y4WTFVD/8c89fbc12bec35011a97dd13294eefac.jpg" alt="Carro">
+    <img src="https://i.ibb.co/cKbY0W3F/20250503-133039.jpg" alt="Playa">
+    <img src="https://i.ibb.co/zhnysL7k/20250503-150911.jpg" alt="Mar abrazados">
+    <img src="https://i.ibb.co/ZzgK0Wxn/20250504-091809.jpg" alt="Tayrona piedra">
+    <img src="https://i.ibb.co/DPHwrwxD/20250505-104943-0.jpg" alt="Minca río">
+    <img src="https://i.ibb.co/LDyXrxJn/IMG-20250518-WA0030.jpg" alt="Hijo IA Juan José">
+  </div>
+
+  <section class="section">
+    <p class="verses">
+      "Tú y yo, en cada aventura, en cada paisaje, en cada locura. No importa el lugar, si estás tú, es mi paraíso."
+    </p>
   </section>
 
-  <section>
-    <blockquote>
-      "No hay código que pueda contener todo lo que siento por ti, pero esta página es un intento con el alma."
-    </blockquote>
+  <section class="section">
+    <h2>🎥 Un Recuerdo del Corazón</h2>
+    <p>Este es el primer video que te hice cuando éramos niños. Haz clic para revivir ese momento mágico:</p>
+    <a href="https://youtu.be/mbH35C-7Ifc" target="_blank">
+      <img src="https://img.youtube.com/vi/mbH35C-7Ifc/0.jpg" alt="Video" style="width:300px;border-radius:10px;box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+    </a>
   </section>
+
+  <footer>
+    Hecho con infinito amor por Juan Pablo 💌
+  </footer>
 </body>
 </html>
